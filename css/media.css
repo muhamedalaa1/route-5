@@ -1,0 +1,167 @@
+/* from 1200 to infinite px */
+
+@media screen and (max-width: 1400px) {
+  .container{
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container{
+    width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container{
+    width: 720px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container{
+    width: 540px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container{
+    width: 90%;
+  }
+}
+/* from 991 to 1200 px */
+@media screen and (max-width: 1200px) {
+  .navbar .container .list {
+    width: 50%;
+  }
+}
+/* from 767 to  991px */
+@media screen and (max-width: 991px) {
+  .navbar .container .list {
+    width: 50%;
+  }
+  .landing-content {
+    width: 50%;
+  }
+  .landing-img {
+    width: 50%;
+  }
+  .card {
+    width: 48%;
+
+    margin-bottom: 20px;
+  }
+  .mealfy {
+    width: 48%;
+  }
+  .subscribe {
+    width: 48%;
+  }
+  .touch {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .info-box {
+    width: 100%;
+  }
+}
+/* from 565 to 767 px */
+@media screen and (max-width: 767px) {
+  .navbar .container .hamburger {
+    display: block;
+  }
+  .navbar .container .list {
+    display: none;
+  }
+  .landing-content p {
+    margin: 0px 0;
+
+    width: 100%;
+  }
+  .landing .container {
+    flex-direction: column;
+  }
+  .landing-content {
+    width: 100%;
+    text-align: center;
+  }
+  .btns-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .card {
+    width: 48%;
+
+    margin-bottom: 20px;
+  }
+  .info-box {
+    width: 100%;
+  }
+  .mealfy {
+    width: 100%;
+  }
+  .subscribe {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .touch {
+    width: 100%;
+  }
+}
+
+/* from 0 to 565 px */
+@media screen and (max-width: 565px) {
+  .landing-content p {
+    margin: 0px 0;
+
+    width: 100%;
+  }
+  .landing .container {
+    flex-direction: column;
+  }
+  .landing-content {
+    width: 100%;
+    text-align: center;
+  }
+  .btns-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .card {
+    width: 100%;
+
+    margin-bottom: 20px;
+  }
+  .info-box {
+    width: 100%;
+  }
+  .mealfy {
+    width: 100%;
+  }
+  .subscribe {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .touch {
+    width: 100%;
+  }
+  .navbar .container .list {
+    display: none;
+  }
+
+  .subscribe .foot-sub input {
+    width: 60%;
+  }
+
+  .navbar .container .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width:435px) {
+  .landing-img {
+   
+    display: none;
+}
+}
